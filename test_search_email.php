@@ -47,6 +47,20 @@ foreach ($arr as $item) {
         }                                                                                  
     }                                                                           
 }
-print_r($good_arr);      
-print_r($bad_arr); 
+foreach ($good_arr as $item) { 
+    print_r($item);
+    echo "\n";
+}
+
+echo "\n";
+echo "\n";
+echo "\n";
+echo "=================Very bad=================";
+echo "\n";
+echo "\n";
+
+foreach ($bad_arr as $item) { 
+    print_r($item);
+    echo "\n";
+}
                                                                                                                                                                                                                                                
